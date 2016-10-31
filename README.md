@@ -29,6 +29,9 @@ Typically, with Gaussian kernels, you would perform convolution with a 2D kernel
 
 *No warmup period built in
 
+Using command:
+`laplacefilter tree.yuv 1920 1080 0.5`
+
 All channels
 ![Alt text](allChannels.jpg?raw=true "All channels")
 

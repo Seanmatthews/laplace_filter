@@ -20,7 +20,13 @@ Typically, with Gaussian kernels, you would perform convolution with a 2D kernel
 
 ## Performance results
 
+![Alt text](allChannels.jpg?raw=true "All channels")
 
+![Alt text](redChannel.jpg?raw=true "Red channel")
+
+![Alt text](blueChannel.jpg?raw=true "Blue channel")
+
+![Alt text](greenChannel.jpg?raw=true "Green channel")
 
 ## Assumptions
 

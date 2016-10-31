@@ -31,6 +31,8 @@ Typically, with Gaussian kernels, you would perform convolution with a 2D kernel
 
 *No warmup period built in
 
+Original
+![Alt text](tree.jpg?raw=true "Original")
 
 All channels
 ![Alt text](allChannels.jpg?raw=true "All channels")

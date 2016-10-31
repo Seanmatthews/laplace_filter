@@ -157,7 +157,7 @@ int main(int argc, char** argv)
 
     if (argc < 4)
     {
-        cout << "Usage: laplacefilter <image path> <image width> <image height>\n";
+        cout << "Usage: laplacefilter <image path> <image width> <image height> [gaussian sigma]\n";
         return -1;
     }
 

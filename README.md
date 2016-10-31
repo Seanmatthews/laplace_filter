@@ -20,6 +20,7 @@ Typically, with Gaussian kernels, you would perform convolution with a 2D kernel
 
 ## Performance results
 
+* Tested on GeForce GTX 780 Ti
 * 1920x1080 image with 3 channels
 * byte count: 6220800
 * grid: (360, 90) block: (16, 12)

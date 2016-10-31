@@ -20,12 +20,13 @@ Typically, with Gaussian kernels, you would perform convolution with a 2D kernel
 
 ## Performance results
 
-1920x1080 image with 3 channels
-byte count: 6220800
-grid: (360, 90) block: (16, 12)
-Kernel runtime: 0.356928 ms
-Bandwidth: 34.8575 GB/s
-5809.58 MPixels/s
+* 1920x1080 image with 3 channels
+* byte count: 6220800
+* grid: (360, 90) block: (16, 12)
+* Kernel runtime: 0.356928 ms
+* Bandwidth: 34.8575 GB/s
+* 5809.58 MPixels/s
+
 *No warmup period built in
 
 ![Alt text](allChannels.jpg?raw=true "All channels")

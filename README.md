@@ -29,12 +29,16 @@ Typically, with Gaussian kernels, you would perform convolution with a 2D kernel
 
 *No warmup period built in
 
+All channels
 ![Alt text](allChannels.jpg?raw=true "All channels")
 
+Red channel
 ![Alt text](redChannel.jpg?raw=true "Red channel")
 
+Blue channel
 ![Alt text](blueChannel.jpg?raw=true "Blue channel")
 
+Green channel
 ![Alt text](greenChannel.jpg?raw=true "Green channel")
 
 ## Assumptions

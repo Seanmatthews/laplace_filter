@@ -161,8 +161,9 @@ int main(int argc, char** argv)
         return -1;
     }
 
-    bool saveImages = false;
+    bool saveImages = true;
     float sigma = 0.5;
+
     if (argc >= 5) sigma = atof(argv[4]);
     
     // Load image
@@ -249,6 +250,7 @@ int main(int argc, char** argv)
         if (saveImages) imwrite(channelNames[idx] + ".jpg", bgr[i]);
     }
 
+    if (saveImages) imwrite("allChannels.jpg", resultImg);
     namedWindow("All Channels", WINDOW_NORMAL);
     imshow("All Channels", resultImg);
     waitKey(0);
